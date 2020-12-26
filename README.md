@@ -3,7 +3,7 @@
 
 Faça download do projeto
 ------------------------
-    https://github.com/frclasso/django_rest_tdd_dockerdvanced.git
+    https://github.com/frclasso/django_rest_api_tdd_docker_2020.git
 
 Rodando via docker
 ------------------
