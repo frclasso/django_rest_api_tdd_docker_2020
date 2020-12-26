@@ -17,13 +17,13 @@ $ docker-compose run app sh -c "python manage.py migrate"
 
 End points
 ----------
--http://localhost:8000/api/user/create/
--http://localhost:8000/api/user/token/
--http://localhost:8000/api/user/me/
+- http://localhost:8000/api/user/create/
+- http://localhost:8000/api/user/token/
+- http://localhost:8000/api/user/me/
 
--http://localhost:8000/api/recipe/ingredients/
--http://localhost:8000/api/recipe/tags/
--http://localhost:8000/api/recipe/recipes/
+- http://localhost:8000/api/recipe/ingredients/
+- http://localhost:8000/api/recipe/tags/
+- http://localhost:8000/api/recipe/recipes/
 
 -----
 
