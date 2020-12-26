@@ -3,7 +3,7 @@
 with TDD , Docker and Travis-CI
 -------------------------------
 
-----
+
 Faça download do projeto
 ------------------------
     https://github.com/frclasso/django_rest_api_tdd_docker_2020.git
