@@ -1,6 +1,11 @@
-[flake]
+[flake8]
+ignore = E501, W391,W292
+
 exclude =
     migrations,
     __pycache__,
     manage.py,
     settings.py
+
+
+max-complexity = 10
