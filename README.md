@@ -3,7 +3,7 @@
 
 Faça download do projeto
 ------------------------
-
+    https://github.com/frclasso/django_rest_tdd_dockerdvanced.git
 
 Rodando via docker
 ------------------
@@ -17,6 +17,13 @@ $ docker-compose run app sh -c "python manage.py migrate"
 
 End points
 ----------
+http://localhost:8000/api/user/create/
+http://localhost:8000/api/user/token/
+http://localhost:8000/api/user/me/
+
+http://localhost:8000/api/recipe/ingredients/
+http://localhost:8000/api/recipe/tags/
+http://localhost:8000/api/recipe/recipes/
 
 -----
 
@@ -27,5 +34,6 @@ JSON Data Payloads
 
 Testando
 --------
-``$ docker-compose run app sh -c "python manage.py test && flake8"
+```
+$ docker-compose run app sh -c "python manage.py test && flake8"
 ```
